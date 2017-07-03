@@ -86,21 +86,12 @@
 <script>
 
 import BarExample from './charts/BarExample'
-import LineExample from './charts/LineExample'
-import DoughnutExample from './charts/DoughnutExample'
-import RadarExample from './charts/RadarExample'
-import PieExample from './charts/PieExample'
-import PolarAreaExample from './charts/PolarAreaExample'
+// import PieExample from './charts/PieExample'
 
 export default {
   name: 'charts',
   components: {
-    BarExample,
-    LineExample,
-    DoughnutExample,
-    RadarExample,
-    PieExample,
-    PolarAreaExample
+    BarExample
   }
 }
 </script>

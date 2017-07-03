@@ -81,24 +81,13 @@
 </template>
 
 <script>
-import CardLine1ChartExample from './dashboard/CardLine1ChartExample'
-import CardLine2ChartExample from './dashboard/CardLine2ChartExample'
-import CardLine3ChartExample from './dashboard/CardLine3ChartExample'
 import CardBarChartExample from './dashboard/CardBarChartExample'
-import MainChartExample from './dashboard/MainChartExample'
-import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
-
 import { dropdown } from 'vue-strap'
 
 export default {
   name: 'dashboard',
   components: {
-    CardLine1ChartExample,
-    CardLine2ChartExample,
-    CardLine3ChartExample,
     CardBarChartExample,
-    MainChartExample,
-    SocialBoxChartExample,
     dropdown
   }
 }

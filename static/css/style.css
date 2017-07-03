@@ -3096,7 +3096,7 @@ tbody.collapse.show {
       width: 100%; } }
 
 .breadcrumb {
-  padding: 0.75rem 1rem;
+  /*padding: 0.75rem 1rem;*/
   margin-bottom: 1rem;
   list-style: none;
   background-color: #fff; }
@@ -6110,10 +6110,15 @@ body {
     line-height: 1.5; }
 
 .breadcrumb {
-  position: relative;
-  margin-bottom: 1.5rem;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  left: 1;
+  min-height: 35px;
+  line-height: 35px;
+  /*position: relative;*/
   border-bottom: 1px solid #cfd8dc; }
-
+  /*内状态栏固定*/
 .btn .badge {
   position: absolute;
   top: 2px;
@@ -7357,7 +7362,7 @@ base-chart.chart {
     padding-left: 7.5px; }
 
 .main .container-fluid {
-  padding: 0 30px; }
+  padding: 55px 30px; }
 
 .input-group-addon,
 .input-group-btn {

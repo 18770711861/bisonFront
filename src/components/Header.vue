@@ -7,16 +7,20 @@
         <a class="nav-link navbar-toggler sidebar-toggler" href="#" @click="sidebarMinimize">&#9776;</a>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">舆情监测</a>
+        <!--<a class="nav-link" href="#">舆情监测</a>-->
+        <router-link :to="'/dashboard'" class="nav-link" exact>舆情监测</router-link>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">行业指数</a>
+        <!--<a class="nav-link" href="#">行业指数</a>-->
+        <router-link :to="'/dashboard'" class="nav-link" exact>行业指数</router-link>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">研究报告</a>
+        <!--<a class="nav-link" href="#">研究报告</a>-->
+        <router-link :to="'/dashboard'" class="nav-link" exact>研究报告</router-link>
       </li>
       <li class="nav-item px-3">
-        <a class="nav-link" href="#">配置</a>
+        <!--<a class="nav-link" href="#">配置</a>-->
+        <router-link :to="'/dashboard'" class="nav-link" exact>配置</router-link>
       </li>
     </ul>
     <ul class="nav navbar-nav ml-auto">

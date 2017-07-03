@@ -11,12 +11,6 @@ import Widgets from '@/views/Widgets'
 
 // Views - Components
 import Buttons from '@/views/components/Buttons'
-import SocialButtons from '@/views/components/SocialButtons'
-import Cards from '@/views/components/Cards'
-import Forms from '@/views/components/Forms'
-import Modals from '@/views/components/Modals'
-import Switches from '@/views/components/Switches'
-import Tables from '@/views/components/Tables'
 
 // Views - Icons
 import FontAwesome from '@/views/icons/FontAwesome'
@@ -31,7 +25,7 @@ import Register from '@/views/pages/Register'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'hash', // Demo is living in GitHub.io, so required!
+  mode: 'hash', // Demo is living in so required!
   linkActiveClass: 'open active',
   scrollBehavior: () => ({ y: 0 }),
   routes: [
@@ -68,36 +62,6 @@ export default new Router({
               path: 'buttons',
               name: 'Buttons',
               component: Buttons
-            },
-            {
-              path: 'social-buttons',
-              name: 'Social Buttons',
-              component: SocialButtons
-            },
-            {
-              path: 'cards',
-              name: 'Cards',
-              component: Cards
-            },
-            {
-              path: 'forms',
-              name: 'Forms',
-              component: Forms
-            },
-            {
-              path: 'modals',
-              name: 'Modals',
-              component: Modals
-            },
-            {
-              path: 'switches',
-              name: 'Switches',
-              component: Switches
-            },
-            {
-              path: 'tables',
-              name: 'Tables',
-              component: Tables
             }
           ]
         },
